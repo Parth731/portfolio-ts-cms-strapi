@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resumes",
+  "info": {
+    "singularName": "resume",
+    "pluralName": "resumes",
+    "displayName": "resume"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "eduction": {
+      "displayName": "eduction",
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.eduction"
+    },
+    "title": {
+      "type": "string"
+    },
+    "Experience": {
+      "displayName": "Experience",
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.experience"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_resume_eductions",
+  "info": {
+    "displayName": "eduction"
+  },
+  "options": {},
+  "attributes": {
+    "degree": {
+      "type": "string",
+      "required": true
+    },
+    "institution": {
+      "type": "string",
+      "required": true
+    },
+    "graduationYear": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

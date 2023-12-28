@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_portfolio_projects",
+  "info": {
+    "displayName": "project"
+  },
+  "options": {},
+  "attributes": {
+    "projectTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "attachment": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "Category": {
+      "type": "string",
+      "required": true
+    },
+    "sourceCode": {
+      "type": "string",
+      "required": true
+    },
+    "WebsiteURL": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

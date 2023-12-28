@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_details_personals",
+  "info": {
+    "displayName": "personal"
+  },
+  "options": {},
+  "attributes": {
+    "birthdate": {
+      "type": "date",
+      "required": true
+    },
+    "phoneno": {
+      "type": "biginteger",
+      "required": true,
+      "max": "10"
+    },
+    "Address": {
+      "type": "text",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}

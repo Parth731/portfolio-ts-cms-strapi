@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "details.designation"
+    },
+    "description": {
+      "type": "blocks",
+      "required": true
+    },
+    "profilepic": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "personaldetail": {
+      "displayName": "personal",
+      "type": "component",
+      "repeatable": false,
+      "component": "details.personal"
+    },
+    "skills": {
+      "displayName": "skills",
+      "type": "component",
+      "repeatable": true,
+      "component": "details.skills"
+    },
+    "testimonials": {
+      "displayName": "testimonials",
+      "type": "component",
+      "repeatable": true,
+      "component": "details.testimonials"
+    }
+  }
+}
